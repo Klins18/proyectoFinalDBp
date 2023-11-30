@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App11.Horas">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e5e5e5"  Padding="20">
+            <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprasimo" TextColor="Goldenrod">Horas</Label>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Margin="10,10,10,0" Orientation="Vertical">
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Programacion de Videojuegos:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Matematica:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Estructuras Discretas:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Programacion de Videojuegos:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Matematica:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Estructuras Discretas:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Programacion de Videojuegos:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Matematica:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Estructuras Discretas:</Label>
+                </StackLayout>
+                <StackLayout Margin="0,10,0,0" Orientation="Vertical">
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

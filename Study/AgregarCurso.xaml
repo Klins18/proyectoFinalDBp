@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App11.AgregarCurso">
+    <ScrollView>
+        <StackLayout>
+            <ContentView>
+                <Button Text = "Playlist1"
+                    Clicked = "Playlist1_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist2"
+                    Clicked = "Playlist2_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist3"
+                    Clicked = "Playlist3_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+                <ContentView>
+                    <Button Text = "Playlist4"
+                        Clicked = "Playlist4_Clicked"
+                        FontFamily="Lexend"
+                        BackgroundColor = "Goldenrod"
+                        TextColor = "#e5e5e5"
+                        Margin="0,10,0,0"
+                        HeightRequest = "50" 
+                        FontSize="20"/>
+                </ContentView>
+            <ContentView>
+                <Button Text = "Playlist5"
+                    Clicked = "Playlist5_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist6"
+                    Clicked = "Playlist6_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist7"
+                    Clicked = "Playlist7_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist8"
+                    Clicked = "Playlist8_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist9"
+                    Clicked = "Playlist9_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist10"
+                    Clicked = "Playlist10_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist11"
+                    Clicked = "Playlist11_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist12"
+                    Clicked = "Playlist12_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist13"
+                    Clicked = "Playlist13_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist14"
+                    Clicked = "Playlist14_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist15"
+                    Clicked = "Playlist15_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist16"
+                    Clicked = "Playlist16_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist17"
+                    Clicked = "Playlist4_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Playlist18"
+                    Clicked = "Playlist18_Clicked"
+                    FontFamily="Lexend"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "#e5e5e5"
+                    Margin="0,10,0,0"
+                    HeightRequest = "50" 
+                    FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text="Pausa" Clicked="PauseButton_Clicked"
+                    FontFamily="Caprasimo"  TextColor = "Goldenrod"
+                     HeightRequest = "50"/>
+            </ContentView>
+        </StackLayout>
+    
+   </ScrollView>
+</ContentP

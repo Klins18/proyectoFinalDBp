@@ -1,0 +1,143 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Caprasimo-Regular.ttf" />
+    <None Remove="Fonts\Lexend-Regular.ttf" />
+    <None Remove="Sonidos\15 Minute Timer Lofi.mp3" />
+    <None Remove="Sonidos\30 Minute Beautiful Jellyfish Timer with Soothing Music.mp3" />
+    <None Remove="Sonidos\30 Minute Lo-Fi Hiphop Beats Study Timer.mp3" />
+    <None Remove="Sonidos\30 Minute Timer - Relaxing Instrumental Music.mp3" />
+    <None Remove="Sonidos\30 Minute Timer Lofi.mp3" />
+    <None Remove="Sonidos\330 a.m. ~ lofi hip hop  jazzhop  chillhop mix [studysleephomework music].mp3" />
+    <None Remove="Sonidos\45 Minute Timer Lofi.mp3" />
+    <None Remove="Sonidos\a playlist for night studies %28dark academia%29.mp3" />
+    <None Remove="Sonidos\Charly García - Demoliendo Hoteles %28Audio%29.mp3" />
+    <None Remove="Sonidos\Clouds 30 Minute Timer[lofi hip-hoprelaxing beats].mp3" />
+    <None Remove="Sonidos\Clouds 45 Minute Timer[lofi hip-hoprelaxing beats].mp3" />
+    <None Remove="Sonidos\cute songs to help you cope with anxiety &amp; stress.mp3" />
+    <None Remove="Sonidos\dbp p.zip" />
+    <None Remove="Sonidos\Deep Focus Lofi Mix ~ lofi study work  chill beats.mp3" />
+    <None Remove="Sonidos\dont stress its gonna be fine.mp3" />
+    <None Remove="Sonidos\Early morning chill music  Study-Relax-Work  Aesthetic music.mp3" />
+    <None Remove="Sonidos\El amor después del amor.mp3" />
+    <None Remove="Sonidos\good mood lofi.   upbeat lofi   hip hop radio [study relax vibe].mp3" />
+    <None Remove="Sonidos\Lazy 30 minutes Chill Hip-Hop Lofi Beats to relax - study to.mp3" />
+    <None Remove="Sonidos\Lofi Musicsleepaestheticrelaxstudywork.mp3" />
+    <None Remove="Sonidos\Purrple Cat - City Nights.mp3" />
+    <None Remove="Sonidos\real time study with me!  30 minute study session with music.mp3" />
+    <None Remove="Sonidos\retro movie nights. [lofi  jazzhop  chill beats].mp3" />
+    <None Remove="Sonidos\Sleep Music 30 Minutes Lofi.mp3" />
+    <None Remove="Sonidos\Study with me l 45 min cozy Lofi music light study session light academia desk motivation to study.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Caprasimo-Regular.ttf" />
+    <EmbeddedResource Include="Fonts\Lexend-Regular.ttf" />
+    <EmbeddedResource Include="Sonidos\15 Minute Timer Lofi.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\30 Minute Beautiful Jellyfish Timer with Soothing Music.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\30 Minute Lo-Fi Hiphop Beats Study Timer.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\30 Minute Timer - Relaxing Instrumental Music.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\30 Minute Timer Lofi.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\330 a.m. ~ lofi hip hop  jazzhop  chillhop mix [studysleephomework music].mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\45 Minute Timer Lofi.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\a playlist for night studies (dark academia).mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Charly García - Demoliendo Hoteles (Audio).mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Clouds 30 Minute Timer[lofi hip-hoprelaxing beats].mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Clouds 45 Minute Timer[lofi hip-hoprelaxing beats].mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\cute songs to help you cope with anxiety &amp; stress.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Deep Focus Lofi Mix ~ lofi study work  chill beats.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\dont stress its gonna be fine.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Early morning chill music  Study-Relax-Work  Aesthetic music.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\El amor después del amor.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\good mood lofi.   upbeat lofi   hip hop radio [study relax vibe].mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Lazy 30 minutes Chill Hip-Hop Lofi Beats to relax - study to.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Lofi Musicsleepaestheticrelaxstudywork.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Purrple Cat - City Nights.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\real time study with me!  30 minute study session with music.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\retro movie nights. [lofi  jazzhop  chill beats].mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Sleep Music 30 Minutes Lofi.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sonidos\Study with me l 45 min cozy Lofi music light study session light academia desk motivation to study.mp3">
+      <CustomToolNamespace>App11</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.6.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="AgregarCurso.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Horas.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Nuevo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Page1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Study.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
